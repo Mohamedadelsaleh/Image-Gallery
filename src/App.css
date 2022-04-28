@@ -40,12 +40,23 @@ header {
 
 header img {
   width: 200px;
+  margin-right: auto;
 }
 
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.center .mainPic img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10rem;
+  margin-left: auto;
+  border-radius: 25px;
 }
 
 .search {
